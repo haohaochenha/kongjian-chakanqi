@@ -1,0 +1,24 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# PyInstaller 打包产物
+dist/
+build/
+*.spec
+
+# 配置文件与密钥（本项目的密钥保存在 %APPDATA%\SpaceViewer，不在仓库）
+.env
+.env.*
+config.json
+settings.json
+
+# IDE / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log

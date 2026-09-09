@@ -1,0 +1,15 @@
+# 空间查看器依赖清单
+#
+# 安装（国内加速 - 清华大学镜像源）：
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+#
+# 若已安装可跳过；psutil / openpyxl 缺失时程序仍可运行（功能自动降级）。
+
+# 图形界面框架（必需）
+PySide6>=6.6,<7.0
+
+# 磁盘分区信息（可选：未安装时自动改用系统 API 探测盘符）
+psutil>=5.9
+
+# 导出 Excel .xlsx（可选：未安装时导出按钮会提示安装命令）
+openpyxl>=3.1
